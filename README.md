@@ -1,13 +1,14 @@
-I'm a 3rd-year CS major at the University of California, Irvine, specializing in **AI/ML & Intelligent Systems**, with a strong interest in full-stack development and computer vision.
+I'm a 4th-year CS major at the University of California, Irvine, specializing in **AI/ML & Intelligent Systems**, with a strong interest in full-stack development and computer vision.
 
-*(Last updated: Feb 2, 2026)*
+*(Last updated: Aug 12, 2026)*
 
 ### Current work:
-I have been a **Software Intern at Canon** since June 2025. Currently, I am engineering a multi-agent RAG Chatbot to assist service technicians and developing a document classification/extraction pipeline.
-
-I'm also working on some personal projects and am a project coorindator for the Artificial Intelligence Club at U.C. Irvine.
+I have been a **Software Intern at MyCase (8am)** since June 2026. Currently, I am engineering AI-assisted template generation workflows and document previews for lawyers.
 
 
+I'm also working on some personal projects and am a project coordinator for the Artificial Intelligence Club at U.C. Irvine.
+
+Prev @ Canon U.S.A., I worked on a multi-agent RAG Chatbot to assist service technicians and developed a document classification/extraction pipeline 
 
 ## Skills & Technologies
 
@@ -24,6 +25,17 @@ I'm also working on some personal projects and am a project coorindator for the 
 ---
 
 ## Featured Projects
+
+### Personal Website + Persistent Counter
+[![Live Site](https://img.shields.io/badge/Live_Site-jonathanpan.me-FF5D01?logo=astro&logoColor=white)](https://jonathanpan.me)
+[![Repo](https://img.shields.io/badge/Repository-jonnypan2325/jonnypan2325.github.io-blue?logo=github)](https://github.com/jonnypan2325/jonnypan2325.github.io)
+
+The site you land on if you Google me. Mostly became an excuse to work out how far you can push a static site that has no backend at all.
+- Built with Astro and Tailwind, ships zero client JS by default, auto-deploys to GitHub Pages on every push via GitHub Actions
+- "Send a wave" pixel-art counter: GitHub Pages can only serve files, so the shared count lives in a Cloudflare Worker backed by Workers KV
+- Cloudflare Turnstile gates the endpoint invisibly (no puzzle to solve), with per-IP hourly caps and an anti-hammer guard stored in KV
+- Pushover fires a notification to my phone when someone sends a wave, throttled server-side to at most one per minute so it can't be spammed
+- SEO work: JSON-LD Person/WebSite schema with sameAs identity claims, rel="me" profile links, canonical URLs, generated sitemap, Open Graph cards, and an llms.txt for AI crawlers
 
 ### Strava Map Art Generator (In-Progress)
 
